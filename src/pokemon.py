@@ -6,10 +6,10 @@ from src.utils import *
 
 class Pokeutilities:
 
-    def __init__(self, user_id: int=0, prefered_catch_type: str="base"):
+    def __init__(self, user_id: int=0, preferred_catch_type: str="base"):
         self.deriver_id = 704130818339242094
         self.user_id = user_id
-        self.prefered_catch_type = prefered_catch_type
+        self.preferred_catch_type = preferred_catch_type
 
 
         if self.prefered_catch_type not in ('base', 'cjk'):
@@ -44,5 +44,5 @@ class Pokeutilities:
 
     async def catch_pokemon(self, message: discord.Message):
         image = message.embeds[0].image.url
-        pokemon = recognize_pokemon(image, self.prefered_catch_type)
+        pokemon = recognize_pokemon(image, self.preferred_catch_type)
         await message.channel.send(f"<@{self.deriver_id}> catch {pokemon.lower()}")
