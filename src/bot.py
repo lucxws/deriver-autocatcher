@@ -70,6 +70,6 @@ class PokemonSelfBot(commands.Bot):
         {'-' * 94}
         """
         print(banner)
-        self.utilspoke = Pokeutilities(user_id=self.user.id, prefered_catch_type='cjk')
+        self.utilspoke = Pokeutilities(user_id=self.user.id, preferred_catch_type='base')
 
 
