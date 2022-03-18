@@ -2,9 +2,10 @@
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
+This tool was made for educational purposes
+Use with responsability
 > This selfbot will automatically catch Pokémons, so you can touch grass lol
 >> **Selfbots are against discord t.o.s, i'm not responsible for any thing that happens in your account**
-> This tool was made for educational purposes
 
 ## Features
 - Catches pokémon with 2 desired names (base, cjk)
