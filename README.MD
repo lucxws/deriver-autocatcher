@@ -1,4 +1,4 @@
-# 🤖 | Deriver Discord Selboft
+# Deriver Discord Selboft
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
@@ -45,8 +45,14 @@ You can also change the delay in line 39
 ### To be added
 - [x] Cli logging for pokémons (easy)
 - [ ] Webhook logging for pokémons (easy)
-- [ ] Whitelist, blacklist pokémons (easy)
-- Catch event.... 🤔
+- [ ] Whitelist, blacklisted pokémons (easy)
+
+### In future
+- [ ] Catch event.... 🤔
+- [ ] Configuration System & Dashboard 
+- [ ] Video Tutorial
+- [ ] Legit system
+- [ ] Egg hatcher
 
 ## License
 MIT
