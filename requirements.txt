@@ -1,0 +1,6 @@
+discord.py==1.4.1
+ImageHash==4.2.1
+numpy==1.22.2
+Pillow==9.0.1
+python-dotenv==0.19.2
+requests==2.27.1
