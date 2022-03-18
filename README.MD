@@ -2,7 +2,7 @@
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
-> This selfbot will automatically catch Pokémons, so you can touch grass lol
+> This selfbot will automatically catch Pokémons, so you can touch grass lol\n
 > Selfbots are against discord t.o.s, i'm not responsible for any damage.
 > This tool was made for educational purposes
 
