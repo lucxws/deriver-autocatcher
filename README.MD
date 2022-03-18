@@ -2,6 +2,9 @@
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
+
+Initially it was made to pokéworld but it got shutdown so I rewrote the whole thing
+
 This tool was made for educational purposes
 Use with responsibility
 > This selfbot will automatically catch Pokémons, so you can touch grass lol
