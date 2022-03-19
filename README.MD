@@ -14,10 +14,11 @@ Use with responsibility
 - Catches pokémon with 2 desired names (base, cjk)
 - Spam script to get spawns
 
-## Packages
-- [discord] - https://discordpy.readthedocs.io/en/stable/api.html
-- [imagehash] - https://pypi.org/project/ImageHash/
-- [PIL] - https://pillow.readthedocs.io/en/stable/
+Packages
+------
+- `discord` <https://discordpy.readthedocs.io/en/stable/api.html>
+- `imagehash` <https://pypi.org/project/ImageHash/>
+- `PIL` <https://pillow.readthedocs.io/en/stable/>
 
 ## Installation
 Python - https://www.python.org/
