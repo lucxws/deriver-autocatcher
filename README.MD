@@ -29,7 +29,7 @@ TOKEN=""
 ```
 Inside 'main.py', add the guild ids.
 In your command prompt
-```sh
+```shell
 pip install -r requirements.txt
 python main.py
 ```
