@@ -2,13 +2,12 @@
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
-
 Initially it was made to pokéworld but it got shutdown so I rewrote the whole thing
-
+------
 This tool was made for educational purposes
 Use with responsibility
-> This selfbot will automatically catch Pokémons, so you can touch grass lol
->> **Selfbots are against discord t.o.s, i'm not responsible for any thing that happens in your account**
+- This selfbot will automatically catch Pokémons, so you can touch grass lol
+- **Selfbots are against discord t.o.s, i'm not responsible for any thing that happens in your account**
 
 ## Features
 - Catches pokémon with 2 desired names (base, cjk)
@@ -25,8 +24,8 @@ Python - https://www.python.org/
 I used version 3.8.0 btw
 
 Add your token in '.env'
-```env
-TOKEN="mfa..."
+```py
+TOKEN=""
 ```
 Inside 'main.py', add the guild ids.
 In your command prompt
