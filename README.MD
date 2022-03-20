@@ -2,15 +2,13 @@
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
 
-Initially it was made to pokéworld but it got shutdown so I rewrote the whole thing
-------
 This tool was made for educational purposes
 Use with responsibility
 - This selfbot will automatically catch Pokémons, so you can touch grass lol
 - **Selfbots are against discord t.o.s, i'm not responsible for any thing that happens in your account**
 
 ## Features
-- Catches pokémon with 2 desired names (base, cjk)
+- Catches pokémon automatically
 - Spam script to get spawns
 
 Packages
@@ -21,26 +19,29 @@ Packages
 
 ## Installation
 Python - https://www.python.org/
-I used version 3.8.0 btw
 
-Add your token in '.env'
+In 'main.py' add your token and your guild ids.
 ```py
-TOKEN=""
+from src.bot import Deriver
+
+token = ""
+bot = Deriver(guilds_ids=[0000, 0000, 0000], enabled=True) 
+bot.run(token, bot=False)
 ```
-Inside 'main.py', add the guild ids.
-In your command prompt
-```shell
+Installing the packages
+```sh
 pip install -r requirements.txt
 python main.py
 ```
 
 ## Spammer (beta)
-Go to 'spam.py' and edit **TOKEN** and **CHANNEL** global variables
+Go to 'spam/script.py' and edit your config
 ```py
-TOKEN=""
-CHANNEL=0000
+TOKEN = ""
+CHANNEL = 000000000000
+DELAY = 3
+AMOUNT = 4
 ```
-You can also change the delay in line 39
 
 ### To be added
 - [x] Cli logging for pokémons (easy)
@@ -48,7 +49,7 @@ You can also change the delay in line 39
 - [ ] Whitelist, blacklisted pokémons (easy)
 
 ### In future
-- [ ] Catch event.... 🤔
+- [ ] Catch event sniper
 - [ ] Configuration System & Dashboard 
 - [ ] Video Tutorial
 - [ ] Legit system

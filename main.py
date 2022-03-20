@@ -1,16 +1,7 @@
-from os import getenv
-from dotenv import load_dotenv
-from src.bot import PokemonSelfBot
+from src.bot import Deriver
 
-
-def main():
-    load_dotenv()
-    bot = PokemonSelfBot(guilds_ids=[0000, 0000, 0000], enabled=True) 
-    ## add some guild ids here
-    bot.run_bot(token=getenv("TOKEN"))
-
-
-if __name__ == "__main__":
-    main()
+token = ""
+bot = Deriver(guilds_ids=[0000, 0000, 0000], enabled=True) 
+bot.run(token, bot=False)
 
 
