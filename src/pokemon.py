@@ -12,8 +12,8 @@ class Pokeutilities:
         self.preferred_catch_type = preferred_catch_type
 
 
-        if self.prefered_catch_type not in ('base', 'cjk'):
-            self.prefered_catch_type = "base"
+        if self.preferred_catch_type not in ('base', 'cjk'):
+            self.preferred_catch_type = "base"
         
 
     def is_valid_spawn(self, message: discord.Message) -> bool:
