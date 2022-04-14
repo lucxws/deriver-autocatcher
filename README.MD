@@ -1,3 +1,5 @@
+# ⚠ For now I'm working on updates, please be patient
+
 # Deriver Discord Selboft
 
 [![icon|icon](https://styles.redditmedia.com/t5_2utus2/styles/communityIcon_nlsut2fgerm71.png)](https://top.gg/bot/704130818339242094)
