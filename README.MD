@@ -1,4 +1,6 @@
-# ⚠ For now I'm working on updates, please be patient
+# I have archived this project, I'm not looking to update anymore simply because there is nothing to do in Deriver anymore.
+# The selfbot still works but you will have to gather all the remaining pokémon, which are the hisuians and their image hash and language names.
+
 
 # Deriver Discord Selboft
 
@@ -44,18 +46,6 @@ CHANNEL = 000000000000
 DELAY = 3
 AMOUNT = 4
 ```
-
-### To be added
-- [x] Cli logging for pokémons (easy)
-- [ ] Webhook logging for pokémons (easy)
-- [ ] Whitelist, blacklisted pokémons (easy)
-
-### In future
-- [ ] Catch event sniper
-- [ ] Configuration System & Dashboard 
-- [ ] Video Tutorial
-- [ ] Legit system
-- [ ] Egg hatcher
 
 ## License
 MIT
